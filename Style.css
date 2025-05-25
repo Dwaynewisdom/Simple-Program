@@ -1,0 +1,74 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: linear-gradient(to right,#F2E1C2,#F2DAC4);
+    height: 80px;
+    position: fixed;
+    width: 95%;
+    border-radius: 10px;
+}
+.nav{
+     display: flex;
+    gap: 40px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 33.33%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.nav:hover{
+    background-color:#24373B;
+    color: white;
+    transition: background-color 0.3s ease; 
+    cursor: pointer;
+}
+
+.hero {
+  align-items: flex-start; 
+  justify-content: space-between; 
+  background-color: rgba(177, 141, 125, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  padding-top: 200px;
+  gap: 40px; 
+  display: flex;
+  height: auto;
+
+}
+
+.text{
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.hero img {
+  width: 20%;
+  height: 20%;
+  min-width: 150px;
+  order: 2; 
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.body{
+    background-image: url(https://dl.dropboxusercontent.com/scl/fi/4kyk9apmeqvyyjz9ncj57/Bg1.jpg?rlkey=zpqr1trwjenojzwkdsosvlyy5&st=qumvts2o&raw=1);
+    background-size: cover;
+    background-position: center;
+}
+
+.skills{
+    
+}
+
